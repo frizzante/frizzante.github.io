@@ -1,0 +1,47 @@
+body {background-color:black;}
+
+img{
+  border-style: none;
+}
+
+#links {
+width:380px;
+height:420px;
+float:left;
+background-color: #A01C2E;}
+
+#rechts {
+resize: none;
+width:380px;
+height:420px;
+float:left;
+background-color: #EBD7B1;
+overflow:hidden;
+padding:left;}
+
+#unten {
+width:760px;
+height:20px;
+text-align:right;
+font-family : Verdana, sans-serif;
+font-size : xx-small;}
+
+#unten a {
+color : white;
+text-decoration: none;
+margin-left : 3px;}
+
+#unten a:hover {
+color: #ffffff;
+text-decoration:underline;
+margin-left : 3px;}
+
+#page {
+border: 0px solid #666;
+position: absolute;
+width: 760px;
+height: 420px;
+top: 50%;
+left: 50%;
+margin-top: -210px;
+margin-left: -380px;}
